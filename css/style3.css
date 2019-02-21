@@ -1,0 +1,40 @@
+
+h2{
+  color: #1AC67E !important;
+  font-size: 80px;
+  margin: 0 auto;
+}
+
+
+#col-img{
+  background-image: url("../img3/hands2.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 300px;
+  transform: rotate(4deg);
+}
+
+#col-logo{
+  background-image: url("../img3/logo-proveat.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80px;
+}
+
+footer{
+  background-color: black;
+  color: white !important;
+}
+
+footer a{
+  color: white !important;
+  margin-right: 10px;
+}
+
+#row-social{
+  align-items: center;
+}
+
+#copyright-footer{
+  align-items: center;
+}
