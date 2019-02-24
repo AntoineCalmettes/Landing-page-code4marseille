@@ -7,6 +7,19 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 3px;
 }
 
+h2{
+  font-size: 80px;
+      color: #1AC67E ;
+}
+
+h3{
+    color: #1AC67E;
+}
+
+a:hover{
+  color: #1AC67E !important;
+}
+
 .text-primary {
     color: #1AC67E !important;
 }
@@ -113,6 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 
 video{
     height: 300px;
+    border-radius: 5px;
 }
 
 .img-left-rotate{
@@ -166,4 +180,8 @@ footer a{
 
 #copyright-footer{
     align-items: center;
+}
+
+#logo-nav{
+height: 60px;
 }
