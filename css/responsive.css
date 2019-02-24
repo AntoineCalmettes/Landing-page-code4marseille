@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  h2{
+    font-size: 50px;
+  }
+  img{
+    transform: rotate(0deg)!important;
+  }
+
+#bg-header-1{
+  display: none!important;
+}
+
+#col-img{
+  display: none;
+}
+}

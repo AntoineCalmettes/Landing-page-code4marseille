@@ -11,6 +11,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <title>Landing Page</title>
 </head>
 
@@ -24,10 +25,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto pl-3">
         <li class="nav-item">
-          <a class="nav-link" href="#">Top Restaurants</a>
+          <a class="nav-link" href="#top-sell">Top Restaurants</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Avantages</a>
+          <a class="nav-link" href="#avantages-div">Avantages</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -45,7 +46,7 @@
         <button class="btn btn-primary mt-4 uppercase" type="button">Voir les restaurants</button>
       </div>
     </article>
-    <article class="col-md-6 mt-5 d-flex justify-content-center">
+    <article class="col-md-6 mt-5 d-flex justify-content-center" id="bg-header-1">
       <div class="shadow bg-header card-img-left position-relative"></div>
       <div class="shadow bg-header-card card-img-right"></div>
     </article>
@@ -54,7 +55,7 @@
     <article class="col-12 bg-light br-5">
       <div class="row h-100 px-4">
         <div class="col-md-8 p-4">
-          <h2><span style="color:black;">Top </span><strong>Restaurants</strong></h2>
+          <h2><span style="color:black;">Top </span><strong id="responsive-top-restaurant">Restaurants</strong></h2>
         </div>
         <div class="col-md-4 p-4 d-flex justify-content-end">
           <button class="btn btn-primary mr-1"><i class="material-icons reverse">play_arrow</i></button>
@@ -66,7 +67,7 @@
               <img src="img/bg-restaurant1.png" class="img-fluid">
             </div>
             <div class="d-flex flex-column pl-2">
-              <p class="font-weight-bold">Lorem Ipsum Dolores</p>
+              <p class="font-weight-bold">Le petit Niçois</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <p>
                 <i class="material-icons gold">stars</i>
@@ -84,7 +85,7 @@
               <img src="img/bg-restaurant1.png" class="img-fluid">
             </div>
             <div class="d-flex flex-column pl-2">
-              <p class="font-weight-bold">Lorem Ipsum Dolores</p>
+              <p class="font-weight-bold">Chez Ramon Dormon</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <p>
                 <i class="material-icons gold">stars</i>
@@ -102,7 +103,7 @@
               <img src="img/bg-restaurant1.png" class="img-fluid">
             </div>
             <div class="d-flex flex-column pl-2">
-              <p class="font-weight-bold">Lorem Ipsum Dolores</p>
+              <p class="font-weight-bold">Les petits matelos</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               <p>
                 <i class="material-icons gold">stars</i>
@@ -120,12 +121,12 @@
   <section id="banner" class="row bg-primary mb-2 p-4">
     <div class="col-12 p-4 d-flex justify-content-center">
       <h4 class="text-white h2 mr-2">Avec ProvEat profitez de -20% sur votre addition</h4>
-      <button class="btn btn-outline-light btn-lg">En profiter</button>
+      <button class="btn btn-outline-light btn-lg ml-3">En profiter</button>
     </div>
   </section>
   <section class="container mt-4">
     <div class="row">
-      <div data-aos="zoom-out" data-aos-duration="1500" class="col-lg-12 text-center pb-6 text-primary pt-6 pb-6">
+      <div data-aos="zoom-out" data-aos-duration="1500" id="avantages-div"class="col-lg-12 text-center pb-6 text-primary pt-6 pb-6">
         <h2>Avantages</h2>
       </div>
       <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="2000" class="col-lg-6 pb-6">
